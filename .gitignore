@@ -218,3 +218,17 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Model checkpoints and trained weights
+checkpoints/
+outputs/
+*.safetensors
+*.pt
+*.pth
+
+# Hugging Face cache
+.cache/huggingface/
+
+# Additional credentials
+.env.*
+!.env.example
